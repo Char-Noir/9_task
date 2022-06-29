@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 9</title>
+    <style>
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 180px;
+          }
+          
+          div.gallery:hover {
+            border: 1px solid #777;
+          }
+          
+          div.gallery img {
+            width: 100%;
+            height: auto;
+          }
+          
+          div.desc {
+            padding: 15px;
+            text-align: center;
+          }
+    </style>
+</head>
+<body>
+    <div style="overflow:visible;" class="gallery">
+        <a target="_blank" href="img_5terre.jpg">
+          <img src="images/1.jpg" alt="First" width="600" height="400">
+        </a>
+        <div class="desc">First image</div>
+      </div>
+      
+      <div style="overflow:auto;" class="gallery">
+        <a target="_blank" href="img_forest.jpg">
+          <img src="images/2.jpg" alt="Second" width="600" height="400">
+        </a>
+        <div class="desc">Second image</div>
+      </div>
+      
+      <div style="overflow:hidden;" class="gallery">
+        <a target="_blank" href="img_lights.jpg">
+          <img src="images/3.jpg" alt="Third" width="600" height="400">
+        </a>
+        <div class="desc">Third image</div>
+      </div>
+      
+      <div style="overflow:scroll;" class="gallery">
+        <a target="_blank" href="img_mountains.jpg">
+          <img src="images/4.jpg" alt="Fourth" width="600" height="400">
+        </a>
+        <div class="desc">Fourth image</div>
+      </div>
+      <div style="overflow:auto;" class="gallery">
+        <a target="_blank" href="img_mountains.jpg">
+          <img src="images/5.png" alt="Fifth" width="600" height="400">
+        </a>
+        <div class="desc">Fifth image</div>
+      </div>
+</body>
+</html>
